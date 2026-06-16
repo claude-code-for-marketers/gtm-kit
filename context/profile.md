@@ -15,34 +15,35 @@ Last updated: 2026-06-15 · Status: **pre-launch (early access)** · Sibling rep
 **Contact:** hello@newsletterradar.com
 
 **What we do:**
-Newsletter Radar is newsletter sponsorship intelligence built for the **buy side** — the brands and
-advertisers spending money on newsletter ads, not the publishers selling slots. Enter a company and see
-every newsletter it sponsors (recency, frequency, and the actual creative); benchmark share-of-voice
-across a competitive set; and get a ranked plan of which newsletters to sponsor next.
+Newsletter Radar is the **newsletter advertising intelligence platform.** It shows where any company
+advertises across newsletters, who advertises on any newsletter, and — by tracking how long advertisers
+keep sponsoring — which newsletters are actually worth buying. Read it both directions: company →
+newsletters (where you or your competitors advertise) and newsletter → companies (who sponsors it, what
+types, and who keeps coming back).
 
 **What makes us different:**
-Most tools in this category — Who Sponsors Stuff, SponsorGap, Appeared.in, Paved Radar — are built and
-marketed for newsletter publishers prospecting for advertisers to pitch. Newsletter Radar points the
-same data the other way: at the brand deciding where to spend. Tagline: *"Every newsletter your
-competitor sponsors, in one query."*
+We track sponsorships **over time**, so we don't just show who advertises where — we show **who keeps
+coming back.** Retention and tenure are the closest thing to a public ROI signal: advertisers don't keep
+paying for placements that don't work. That turns "which newsletter should I sponsor?" into an evidence-
+based decision instead of a subscriber-count guess. Full method: `context/sponsorship-decision-framework.md`.
 
-> **Caveat (important):** **SponsorSignals** already ships a full buy-side product in our exact verticals,
-> so "buy-side" is **not** our differentiator. Our real edges are **coverage breadth** (1,000+ automated
-> crawl vs. their 170 manually verified) and the **ranked placement plan/gap analysis**. The marketing
-> site's "every other tool sells to publishers" line is an overclaim worth revisiting. See
-> `context/competitor-radar.md` (SponsorSignals card) for the full, frank picture.
+> **Internal note (not the pitch):** lead the narrative on the platform + retention thesis, not on
+> competitor contrast. Battlecards live in `context/competitor-radar.md` for handling objections in a
+> live deal only. Our defensible edges vs. the field: coverage breadth (1,000+ automated crawl) and the
+> retention-based recommendation.
 
 ---
 
 ## Product
 
-**Core product:** Newsletter Radar — an advertiser-facing search + analytics tool over a continuously
-crawled index of newsletter sponsorships. Terminal/CLI-inspired brand (`radar footprint`, `radar gaps`).
+**Core product:** Newsletter Radar — a search + analytics platform over a continuously crawled, time-series
+index of newsletter sponsorships. Terminal/CLI-inspired brand (`radar footprint`, `radar recommend`).
 
 **Key capabilities:**
-- **Competitor footprint** — enter a company, get every newsletter it sponsors, ranked by share-of-voice, with the actual ad creative
-- **Placement plan** — given category, competitors, and budget, a ranked shortlist of newsletters to test next, with the gaps competitors own flagged
-- **Freshness** — who *started* advertising recently and what's live this week, not a historical archive
+- **Bidirectional lookup** — company → every newsletter it sponsors (recency, frequency, creative); newsletter → its full advertiser roster and sponsor-type mix
+- **Retention & tenure intelligence** — repeat rate, median tenure, long-tenure "anchor" sponsors, and retention curves per newsletter (the decision engine; see `sponsorship-decision-framework.md`)
+- **The buy decision** — fit (companies like you advertising here) × proof (do they retain) → a ranked, personalized "worth-it" shortlist of newsletters to sponsor, plus category whitespace
+- **Freshness** — who *started* (or stopped) advertising recently, not a static archive
 
 **Scope (v1):** Pure intelligence. No contact data and no outreach tooling — deliberately not a lead
 list. (Possible later expansion; out of scope for launch.)

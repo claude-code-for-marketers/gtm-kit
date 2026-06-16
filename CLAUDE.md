@@ -11,9 +11,10 @@ A few founder-specific fields are still marked `[inferred]`/`[TBD]`.
 
 ## Company
 
-**Newsletter Radar** helps brands and advertisers see where their competitors advertise in newsletters —
-and get a ranked plan of where to spend next. Newsletter sponsorship intelligence for the **buy side**,
-not for publishers selling ad slots. *"Every newsletter your competitor sponsors, in one query."*
+**Newsletter Radar** is the **newsletter advertising intelligence platform**: see where any company
+advertises across newsletters, who advertises on any newsletter, and — by tracking how long advertisers
+keep sponsoring — which newsletters are actually worth buying. Both directions; built for advertisers.
+Thesis: **retention reveals what works — follow the repeat money** (`context/sponsorship-decision-framework.md`).
 
 Stage: pre-launch / early access | HQ: `[TBD]` | Website: newsletterradar.com | Contact: hello@newsletterradar.com
 GTM motion: early-access / design partners now (one vertical at a time) → self-serve **paid** subscription at GA
@@ -57,19 +58,18 @@ Full profiles: `context/personas/`
 
 Full document: `context/positioning.md`
 
-**We win when:** The buyer is an advertiser who wants competitor footprint + a placement plan + fresh data.
-**We lose when:** They only need raw "who's spending" signal, the newsletter they care about isn't covered, or they're actually a publisher.
+**Three pillars:** (1) bidirectional visibility — who advertises where, both directions; (2) retention &
+tenure intelligence — who keeps coming back; (3) the buy decision — fit × proof → a ranked shortlist.
 
-vs. **SponsorSignals** (⚠ closest competitor — full buy-side product already shipped, our exact verticals): lead with **coverage breadth** (1,000+ crawl vs their 170 manual) + the **placement plan**; "buy-side" is NOT a differentiator vs them; watch weekly
-vs. Who Sponsors Stuff: Buy-side workflow + freshness vs. a historical seller's directory
-vs. SponsorGap: A media *plan*, not a real-time lead list (and we don't do free search)
-vs. Appeared.in: Explicit buy-side benchmarking (publisher-framed today)
-vs. Paved Radar: Neutral advertiser tool, not a publisher lead feed tied to a marketplace
+**We win when:** The advertiser wants evidence (retention/tenure) and broad coverage to decide where to spend.
+**We lose when:** They just want a name list, a narrow panel is enough, or they're a publisher selling slots.
 
-> Don't say "the only buy-side tool" — SponsorSignals already serves advertisers. Lead with coverage breadth + the plan.
+**Lead with:** the platform + the retention thesis ("subscriber count tells you reach; retention tells you
+whether it works"). **Don't make the pitch about our competitors** — battlecards in `competitor-radar.md`
+are for live-deal objections only. Real edges: coverage breadth (1,000+ crawl) + retention-based recommendation.
 
-**Voice:** Direct, concrete, buy-side, lightly technical (terminal/CLI brand). Lead with specific competitor
-footprints, never generic "newsletter ads are hot." Never sound like a prospecting/lead-gen tool.
+**Voice:** Direct, concrete, evidence-led, lightly technical (terminal/CLI brand). Lead with retention proof
+and specific footprints, never generic "newsletter ads are hot." Never sound like a prospecting/lead-gen tool.
 
 ---
 

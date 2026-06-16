@@ -1,67 +1,82 @@
 # Positioning — Newsletter Radar
 
-*The source of truth for how we talk about what we do, who we beat, and who we lose to. Reference this file before writing any outbound copy, building any battlecard, or preparing for a competitive evaluation.*
+*The source of truth for how we talk about what we do. Reference this before writing any outbound copy
+or marketing page. The product story stands on its own — lead with the platform and the retention thesis,
+not with competitor contrast. (Competitor battlecards live in `context/competitor-radar.md`, for internal
+sales enablement only — they are not the narrative.)*
 
-Last updated: 2026-06-15 · Mirrors the live marketing site (`../newsletter-radar-site`).
+Last updated: 2026-06-15
 
 ---
 
 ## Core Positioning Statement
 
-**Newsletter Radar is newsletter sponsorship intelligence for advertisers.** Every other tool in the
-category is built to help newsletters find advertisers to sell to. We flip the data around: we show
-brands where their competitors advertise and recommend exactly which newsletters they should sponsor next.
+**Newsletter Radar is the newsletter advertising intelligence platform.** It shows you where any company
+advertises across newsletters, who advertises on any newsletter, and — by tracking how long advertisers
+keep sponsoring — which newsletters are actually worth buying.
 
-Headline: **"Every newsletter your competitor sponsors, in one query."**
+**Read it both directions:**
+- **Company → newsletters:** where a brand (you *or* your competitors) advertises, and how committed they are.
+- **Newsletter → companies:** who sponsors a newsletter, what *types* of companies, and who keeps coming back.
 
-**The mechanism:** our own continuously crawled index of which brands sponsor which newsletters, queried
-*from the advertiser's point of view* — company → its full newsletter footprint, and budget → a ranked
-placement plan. The incumbents have similar data; we built the buy-side workflow on top of it.
+**The mechanism:** an automated crawl of 1,000+ newsletters that records every sponsorship over time —
+who ran, where, and for how long. That time dimension is the product: **retention reveals what works.**
 
-> **The flip (use this framing in sales):**
-> sell-side (incumbents): newsletter → advertisers · *"who can I pitch?"*
-> buy-side (us): brand → its newsletters · *"where has this brand advertised?"* + budget → ranked placements · *"where should we spend next?"*
+---
+
+## The Thesis: Follow the Repeat Money
+
+Advertisers don't keep paying for placements that don't work. So the most honest signal of whether a
+newsletter is worth sponsoring isn't its subscriber count or its media kit (seller-reported, unverifiable) —
+it's **revealed preference: do advertisers keep coming back, and for how long?**
+
+A newsletter where sponsors run for 12 straight months is one where the audience converts. A newsletter
+full of one-and-done sponsors is a warning. We turn that into the buying decision — see
+`context/sponsorship-decision-framework.md` for the full method and metrics.
+
+> **Honesty note this resolves:** we never claim to measure advertisers' conversions. We don't have to.
+> "They renewed for 14 straight months" tells a buyer more than any media kit — and it's a fact we can see.
 
 ---
 
 ## Value Pillars
 
-### Pillar 1: Competitor footprint  *("Where is everyone advertising?")*
+### Pillar 1: Bidirectional visibility  *("Who advertises where?")*
 
-**Leads for:** Head of Growth / Performance Marketing
+**Leads for:** anyone planning or auditing a newsletter ad budget
 
-Enter any company and see every newsletter it has sponsored — recency, frequency, and the actual
-creative. Benchmark share-of-voice across a whole competitive set in one view. The question advertisers
-ask first, which the incumbents make them reverse-engineer from a seller's directory.
+Enter a company and see every newsletter it sponsors (recency, frequency, creative). Enter a newsletter
+and see its full advertiser roster and the type-mix of sponsors. The whole board, both directions.
 
 **Proof points:**
-- "See every newsletter [competitor] ran in the last 90 days, ranked by share-of-voice" (e.g., the sample footprint: 14 runs across 9 newsletters — Morning Brew, The Hustle, Milk Road, Not Boring…)
-- Side-by-side share-of-voice across a vertical
+- A competitor's full footprint, ranked by share-of-voice
+- Any newsletter's sponsor roster, segmented by vertical / model / stage
 
 ---
 
-### Pillar 2: Placement plan  *("Where should we spend?")*
+### Pillar 2: Retention & tenure intelligence  *("Who keeps coming back?")*
 
-**Leads for:** Performance marketer / media buyer
+**Leads for:** the performance marketer deciding where the budget actually goes
 
-Turn the footprint into a buy: given your category, competitors, and budget, here are the newsletters
-to sponsor next — including the ones your competitors own that you're missing (`radar gaps`). A media
-plan, not a lead list.
+We track sponsorships over time, so we can show repeat rate, median sponsor tenure, long-tenure "anchor"
+advertisers, and retention curves per newsletter. The closest thing to a public ROI signal.
 
 **Proof points:**
-- "3 newsletters two of your competitors run that you don't" → a ranked test plan
+- "8 of this newsletter's sponsors have run 12+ months straight"
+- "73% of sponsors here run again within 60 days" vs. a one-and-done newsletter at 12%
 
 ---
 
-### Pillar 3: Freshness  *("What's running right now?")*
+### Pillar 3: The buy decision  *("Which newsletters should we sponsor?")*
 
-**Leads for:** Anyone burned by a stale archive
+**Leads for:** the marketer/founder making the call
 
-Surface who *started* advertising recently and what's live this week — not a historical archive you
-have to date-check before you trust it.
+Combine fit (companies like you advertising here) with proof (do they retain) into a ranked, personalized
+list of newsletters to sponsor — and the whitespace your category hasn't claimed yet.
 
 **Proof points:**
-- "New sponsors detected this week in [vertical]"
+- A ranked "worth-it" shortlist for *your* category and budget
+- Newsletters where lookalike advertisers retain but you're absent
 
 ---
 
@@ -69,51 +84,30 @@ have to date-check before you trust it.
 
 | Persona | Lead with | Avoid |
 |---------|-----------|-------|
-| Head of Growth / Performance Marketing | A specific competitor footprint + a ranked placement plan | Generic "newsletter ads are hot" trend talk |
-| Founder / Marketing lead (small team) | "See where a competitor advertises in one query" (point to the sample lookup) | Enterprise media-planning jargon |
-| Media buyer / agency | Coverage by vertical, freshness, export into existing planning workflow | Framing it as a prospecting / lead-gen tool |
+| Head of Growth / Performance Marketing | Retention proof + a ranked, fit-scored shortlist | Generic "newsletter ads are hot" trend talk |
+| Founder / Marketing lead (small team) | "See who advertises here and who keeps coming back, before you spend a dollar" | Enterprise media-planning jargon |
+| Media buyer / agency | Both-direction coverage, retention analytics, export into existing planning | Framing it as a prospecting / lead-gen tool |
 
 *Top-of-funnel CTA: the no-signup **sample lookup**, then **request early access**. There is no free tier — don't imply one.*
 
 ---
 
-## Competitive Positioning
+## What Not to Say
 
-Full battlecards: `context/competitor-radar.md`
+**Don't position as a "sponsor database" or "lead-gen tool"** — we're a *decision* platform for advertisers.
+Say "which newsletters to sponsor," never "who to pitch."
 
-| Competitor | We win when | We lose when | Note |
-|------------|-------------|-------------|------|
-| **SponsorSignals** ⚠ | Buyer needs coverage beyond their 170 newsletters, or wants a ranked plan not just a footprint | Buyer wants the cheap $100 one-time look, or 170 newsletters is enough | **Closest competitor — full buy-side product already shipped. Watch weekly.** |
-| Who Sponsors Stuff | Buyer wants current data + a buy-side workflow, not a historical seller's directory | Buyer only needs the deep historical archive / ad-image library | Incumbent; deepest archive |
-| SponsorGap | Buyer wants a *plan*, not raw "who's spending" signal | Buyer just needs real-time spend signal (and free search) | Real-time, publisher-framed; free search we don't match |
-| Appeared.in | Buyer wants explicit buy-side benchmarking | Appeared ships a buy-side mode and matches our framing | Strong data/UX; publisher-framed today |
-| Paved Radar | Buyer is an advertiser (not a publisher) and wants a neutral tool | Buyer is actually a publisher wanting leads | Tied to Paved marketplace; 15,000+ coverage |
+**Don't claim we measure conversions / ROI** — we show *revealed preference* (retention, tenure, repeat
+rate), not conversion rates. Say "advertisers keep coming back," not "this is converting at X%."
 
----
-
-## What Not to Say  *(mirrors the site's "What we won't claim")*
-
-**Don't position as a "sponsor database" or "lead-gen tool"** — that's the incumbents' frame and signals
-sell-side. We're media intelligence for buyers. Say "where to advertise," never "who to pitch."
-
-**Don't claim complete coverage of any newsletter** — coverage is finite for everyone. The honest line:
-"We track the newsletters that matter in a vertical. If one you care about is missing, tell us and we'll add it."
-
-**Don't claim attribution/ROI we can't measure** — we show *spend and presence*, not conversions. Say
-"where competitors spend," not "what's working for them," unless we actually have outcome data.
+**Don't claim complete coverage of any newsletter** — coverage is finite for everyone. Honest line: "We
+crawl the newsletters that matter in a vertical. If one you care about is missing, tell us and we'll add it."
 
 **Don't imply a free tier or free trial** — there isn't one. The free thing is a no-signup *sample lookup*
 (one teaser), not an account. De-risk with the 14-day money-back guarantee instead.
 
-**Coverage is context-dependent** — *don't* compete on panel size vs. Paved's 15,000+ (a publisher lead
-feed; we win on buy-side workflow). But *do* lead on coverage breadth vs. **SponsorSignals** — our 1,000+
-automated crawl vs. their 170 manually-verified newsletters is a real, defensible edge against the one
-competitor that actually overlaps us.
-
-**Don't claim we're "the only buy-side / advertiser-first tool"** — **SponsorSignals ships a full buy-side
-product** in our exact verticals, with MCP/Claude access and a $100 entry pass. "Buy-side" is not a
-differentiator against them. Lead instead with our two real edges: **coverage breadth** (1,000+ automated
-crawl vs. their 170 manually verified) and the **placement plan/gap analysis** (`radar gaps`).
+**Don't make the narrative about our competitors** — the platform stands on its own (bidirectional
+visibility + retention). Battlecards in `competitor-radar.md` are for handling objections in a live deal, not for the pitch.
 
 ---
 
@@ -127,4 +121,4 @@ crawl vs. their 170 manually verified) and the **placement plan/gap analysis** (
 
 ---
 
-*Sources: founder answers (2026-06-15); the live marketing site `../newsletter-radar-site`; public positioning of Who Sponsors Stuff, SponsorGap, Appeared.in, Paved Radar.*
+*Sources: founder direction (2026-06-15); the marketing site `../newsletter-radar-site`.*

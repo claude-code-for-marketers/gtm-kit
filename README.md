@@ -37,8 +37,9 @@ gtm-kit/
 │   ├── profile.md                  ← Company overview, product, market context
 │   ├── icp-definition.md           ← Buy-side ICP: brands/advertisers, tiers, anti-ICP
 │   ├── signal-library.md           ← Buying signals (incl. our own index as a signal source)
-│   ├── positioning.md              ← Value pillars, messaging matrix, what not to say
-│   ├── competitor-radar.md         ← Battlecards: Who Sponsors Stuff, SponsorGap, Appeared.in, Paved Radar
+│   ├── positioning.md              ← Platform positioning, retention thesis, value pillars, messaging
+│   ├── sponsorship-decision-framework.md ← How advertisers decide which newsletters to sponsor (the method + metrics)
+│   ├── competitor-radar.md         ← Internal battlecards (live-deal objections only — not the pitch)
 │   └── personas/                   ← Head of Growth, Founder/marketing lead
 ├── skills/                         ← Claude executes these from one-line prompts
 │   ├── setup/ · account-research/ · icp-scoring/ · signal-to-sequence/ · weekly-update/
@@ -53,16 +54,19 @@ document how the team operates — reference docs for humans.
 
 ---
 
-## The Wedge
+## What Newsletter Radar Does
 
-Every established tool in this category — Who Sponsors Stuff, SponsorGap, Appeared.in, Paved Radar — is
-sold to newsletter **publishers** as a prospecting database to find advertisers. Newsletter Radar points
-the same data at the **advertiser**:
+The newsletter advertising intelligence platform, read both directions:
 
-1. **Reverse lookup** — "Where has this company advertised?" → a brand's full newsletter footprint.
-2. **Recommendations** — "Which newsletters should we sponsor?" → a ranked plan from competitor + lookalike spend.
+1. **Company → newsletters** — "Where does this company (or my competitor) advertise?" → a brand's full footprint.
+2. **Newsletter → companies** — "Who advertises on this newsletter, and what types?" → the sponsor roster and mix.
 
-See `context/competitor-radar.md` for full battlecards and `context/positioning.md` for the messaging.
+The decision layer is **retention**: we track sponsorships over time, so we show *who keeps coming back*.
+Advertisers don't keep paying for placements that don't work, so tenure and repeat-rate are the closest
+thing to a public ROI signal — and they turn "which newsletter should I sponsor?" into an evidence-based
+call instead of a subscriber-count guess.
+
+See `context/sponsorship-decision-framework.md` for the method + metrics, and `context/positioning.md` for messaging.
 
 ---
 
