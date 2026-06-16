@@ -2,10 +2,10 @@
 
 Last updated: 2026-06-12
 
-> **Note:** Newsletter Radar is pre-launch. Win/loss patterns below are *inferred* from each
-> competitor's public positioning and the structural gap Newsletter Radar is built to exploit —
+> **Note:** Newsletter Radar is pre-launch. Win/loss patterns below are working hypotheses based on
+> each competitor's public positioning and the structural gap Newsletter Radar is built to exploit —
 > a **brand/advertiser-facing** view of the newsletter sponsorship market, rather than a
-> publisher-facing one. Replace inferred patterns with real data after the first competitive deals.
+> publisher-facing one. Replace hypotheses with real data after the first competitive deals.
 
 ---
 
@@ -40,7 +40,7 @@ questions we answer that the incumbents bury:
 ## SponsorSignals  ⚠ closest competitor
 
 > **Verified from sponsorsignals.com (2026-06-15)** — figures and copy below are taken directly from
-> their site, not inferred. Founder: Sayz Lim (solo-founder signals: "direct line to the founder").
+> their site, not a hypothesis. Founder: Sayz Lim (solo-founder signals: "direct line to the founder").
 
 **One-line summary:** Newsletter sponsorship intelligence that serves **both** sides — "Find brands to
 pitch. Find newsletters to sponsor." It has a **fully shipped buy-side product** ("See which newsletters
@@ -213,7 +213,7 @@ proof the *market data exists*, then differentiate on who the product is for.
 
 ---
 
-## Win/Loss Patterns  *(inferred — pre-launch; validate after first deals)*
+## Win/Loss Patterns  *(pre-launch hypotheses; validate after first deals)*
 
 **Why we expect to win:**
 1. The buyer is an **advertiser/brand**, not a publisher — every incumbent makes them translate

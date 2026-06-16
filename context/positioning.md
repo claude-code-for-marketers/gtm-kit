@@ -5,7 +5,7 @@ or marketing page. The product story stands on its own — lead with the platfor
 not with competitor contrast. (Competitor battlecards live in `context/competitor-radar.md`, for internal
 sales enablement only — they are not the narrative.)*
 
-Last updated: 2026-06-15
+Last updated: 2026-06-16
 
 ---
 
@@ -113,11 +113,8 @@ visibility + retention). Battlecards in `competitor-radar.md` are for handling o
 
 ## Reference Customers by Use Case
 
-*None yet — pre-launch. Populate as design partners come on.*
-
-| Customer | Use case | Can reference? |
-|----------|----------|---------------|
-| `[TBD]` | | |
+None yet — pre-launch. Populate as design partners come on. Until then, use product-specific proof:
+competitor footprints, fresh sponsor detections, retention/tenure patterns, and ranked placement gaps.
 
 ---
 

@@ -2,7 +2,7 @@
 
 *This is the canonical ICP document. All campaigns, scoring models, and outreach sequences reference this file. Update it when your understanding of the ideal customer evolves — and note the date of each change.*
 
-Last updated: 2026-06-12 · Status: **pre-launch** · `[inferred]` = founder to confirm in refinement.
+Last updated: 2026-06-16 · Status: **pre-launch** · v0 ICP ready for first account scoring; validate against design-partner conversations.
 
 > **Who we sell to:** brands and advertisers that buy (or should be buying) newsletter sponsorships —
 > the *buy side*. **Not** newsletter publishers selling ad slots (that's the incumbents' market and our anti-ICP).
@@ -14,7 +14,7 @@ Last updated: 2026-06-12 · Status: **pre-launch** · `[inferred]` = founder to 
 The buyer is a company that already spends, or is about to spend, on newsletter advertising and needs
 to plan it like a real channel — where to spend, what competitors are doing, and what's working.
 
-### Firmographics  *(`[inferred]` — sharpen against design partners)*
+### Firmographics
 
 | Dimension | Ideal Range | Notes |
 |-----------|-------------|-------|
@@ -23,7 +23,7 @@ to plan it like a real channel — where to spend, what competitors are doing, a
 | Funding stage | Seed → Series C | Funded growth companies with paid-acquisition budgets |
 | Funding recency | Raised in last 12 months | Fresh budget → new channel experimentation |
 | Marketing maturity | Has dedicated growth/performance marketing | They run paid channels and benchmark spend |
-| Geography | US first `[inferred]` | Largest newsletter ad market |
+| Geography | US first | Largest newsletter ad market and easiest first outbound motion |
 
 > **Coverage constraint:** our crawl covers **tech, AI, business, finance** newsletters (+ adjacent like
 > crypto). An advertiser is only a fit if its buyers read newsletters in those verticals. A consumer/DTC
@@ -40,7 +40,7 @@ to plan it like a real channel — where to spend, what competitors are doing, a
 **Weak fit indicators:**
 - No paid-acquisition motion at all (not ready to plan a channel)
 - Pure brand/awareness spender with no measurement culture
-- Already locked into a managed agency that owns all planning `[inferred — could be channel partner instead]`
+- Already locked into a managed agency that owns all planning (deprioritize direct sale; could become a later channel-partner path)
 
 ### Organizational signals
 
@@ -56,7 +56,7 @@ to plan it like a real channel — where to spend, what competitors are doing, a
 
 Advertisers already spending meaningfully on newsletters who feel the planning pain *today*.
 
-**Criteria:** `[inferred]`
+**Criteria:**
 - Detected as an active newsletter sponsor across 2+ newsletters in our index
 - Has a dedicated growth/performance marketing function
 - A direct competitor is also visibly advertising (benchmarking demand)
@@ -69,7 +69,7 @@ Advertisers already spending meaningfully on newsletters who feel the planning p
 
 Strong paid-acquisition advertisers not yet in newsletters, or just starting.
 
-**Criteria:** `[inferred]`
+**Criteria:**
 - Heavy spend on Meta/Google/podcast ads
 - Raised funding in the last 12 months
 - In a vertical we cover (tech, AI, business, finance, crypto)
@@ -82,7 +82,7 @@ Strong paid-acquisition advertisers not yet in newsletters, or just starting.
 
 Meets minimum criteria; activate with automated, lightly personalized outreach.
 
-**Criteria:** `[inferred]`
+**Criteria:**
 - 20+ employees with a marketing function
 - In a vertical we cover (tech, AI, business, finance)
 - Some evidence of paid acquisition
@@ -134,4 +134,5 @@ Too early, no paid motion, or not yet detectable in any ad channel. Stay on rada
 
 | Date | Change | Reason |
 |------|--------|--------|
-| 2026-06-12 | Initial definition from pre-launch setup. Buy-side (advertiser) ICP, inferred from category structure and incumbent positioning. | Validate against first design partners and first 90 days of scored accounts. |
+| 2026-06-12 | Initial definition from pre-launch setup. Buy-side (advertiser) ICP, based on category structure and incumbent positioning. | Validate against first design partners and first 90 days of scored accounts. |
+| 2026-06-16 | Removed placeholder labels and promoted the v0 ICP to the working account-scoring baseline. | Make the repo usable as the basic starting point for GTM work while preserving validation notes. |

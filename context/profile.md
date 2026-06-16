@@ -2,7 +2,7 @@
 
 *High-level context about the company, product, and GTM motion. This is the first thing Claude reads when working on anything in this repo.*
 
-Last updated: 2026-06-15 · Status: **pre-launch (early access)** · Sibling repo: `../newsletter-radar-site` (Next.js marketing site).
+Last updated: 2026-06-16 · Status: **pre-launch (early access)** · Sibling repo: `../newsletter-radar-site` (Next.js marketing site).
 
 ---
 
@@ -10,7 +10,7 @@ Last updated: 2026-06-15 · Status: **pre-launch (early access)** · Sibling rep
 
 **Name:** Newsletter Radar
 **Founded:** 2026
-**HQ:** `[TBD]`
+**Operating location:** Remote / founder-led. Do not use HQ in segmentation or outreach unless a public headquarters location is later provided.
 **Website:** newsletterradar.com (pre-launch — early-access landing page live)
 **Contact:** hello@newsletterradar.com
 
@@ -75,7 +75,7 @@ list. (Possible later expansion; out of scope for launch.)
 > - ⚠ **MCP/Claude access is already shipped by them** (Pilot + Annual), not a future edge. Given our
 >   CLI/terminal brand, treat MCP as **table stakes for launch**, not a roadmap nice-to-have.
 
-**Integrations that matter for GTM:** CSV / Google Sheets export for media planning. `[Others TBD]`
+**Integrations that matter for GTM:** CSV / Google Sheets export for media planning. Defer additional integrations until design partners ask for them repeatedly.
 
 ---
 
@@ -89,7 +89,7 @@ look up first") so coverage can be prioritized per requester.
 seats. Top-of-funnel hook = the no-signup sample lookup → request access / purchase.
 
 **Typical deal flow:** Sample lookup → request access → design-partner onboarding (vertical prioritized) → paid subscription
-**ACV range:** `[inferred]` ~$1.2k–$4k self-serve (Pro/Team annual); higher for Agency
+**Expected ACV range from launch pricing:** ~$1.2k–$4k self-serve (Pro/Team annual); higher for Agency
 **Sales cycle:** Short — self-serve / founder-led
 **Expansion motion:** Seat expansion as more of an advertiser's marketing team adopts it; Agency multi-client plans
 
@@ -101,7 +101,7 @@ seats. Top-of-funnel hook = the no-signup sample lookup → request access / pur
 
 | Name | Role | Owns |
 |------|------|------|
-| `[TBD]` | Founder | Product, the crawl/index, positioning, first sales |
+| Founder-led | Founder | Product, the crawl/index, positioning, first sales |
 
 ---
 
@@ -116,14 +116,14 @@ seats. Top-of-funnel hook = the no-signup sample lookup → request access / pur
 
 **Key campaigns active:** Early-access waitlist via the marketing site (`../newsletter-radar-site`)
 
-**Blockers:** `[inferred]` Crawl coverage depth per vertical; converting "request access" interest into paying design partners
+**Blockers:** Crawl coverage depth per vertical; converting "request access" interest into paying design partners
 
 ---
 
 ## Market Context
 
 **Category:** Newsletter sponsor (ad) intelligence — re-pointed at the advertiser/buy side
-**Market size:** `[inferred — TBD; tied to total newsletter ad spend, growing with the newsletter economy]`
+**Market size:** Not needed for first GTM execution. Validate before investor, fundraising, or market-sizing materials; anchor to newsletter ad spend and the broader newsletter economy.
 **Key trends driving demand:**
 - Newsletter advertising is now a real performance channel; brands need to plan it like paid social
 - Advertisers expect competitor benchmarking (à la SimilarWeb / SensorTower) for every channel
@@ -151,8 +151,4 @@ seats. Top-of-funnel hook = the no-signup sample lookup → request access / pur
 
 ## Reference Customers
 
-*None yet — pre-launch. Populate with design partners and first logos as they sign.*
-
-| Customer | Industry | Why they bought | Can reference publicly? |
-|----------|----------|----------------|------------------------|
-| `[TBD]` | | | |
+None yet — pre-launch. Populate with design partners and first logos as they sign.

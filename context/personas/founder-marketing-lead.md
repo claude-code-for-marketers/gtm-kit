@@ -1,6 +1,6 @@
 # Persona: Founder / Solo Marketing Lead (small team)
 
-*The economic buyer at early/small ICP accounts that don't yet have a dedicated growth hire. Status: pre-launch — `[inferred]` fields to validate.*
+*The economic buyer at early/small ICP accounts that don't yet have a dedicated growth hire. Status: pre-launch — validate with design partners.*
 
 ---
 
@@ -40,7 +40,7 @@ and error. They want to copy what's already working for similar/competitor brand
 ## How to Reach Them
 
 **Best channel:** Email, Twitter/LinkedIn DMs, and the communities/newsletters they already read
-**Best time:** `[inferred]`
+**Best time:** Tuesday-Thursday business hours; DMs can work early morning or evening when founders are catching up asynchronously.
 **What gets their attention:** "See where [a brand they admire / competitor] advertises" — concrete and aspirational
 **What gets ignored:** Enterprise media-planning language, anything that smells like sales software
 
@@ -51,11 +51,11 @@ and error. They want to copy what's already working for similar/competitor brand
 **Value prop for this persona:**
 Copy the newsletter-advertising playbook of brands like yours — see where they spend, then do the same, without guessing.
 
-**Proof points that resonate:** `[inferred]`
+**Proof points that resonate before launch:**
 - A recognizable peer brand's footprint shown instantly via the sample lookup
 - "See a competitor's placements before you pay; money-back guarantee if it's not useful"
 
-**Reference customers for this persona:** `[TBD — pre-launch]`
+**Reference customers for this persona:** None yet — use peer-brand examples and live product evidence until design partners are referenceable.
 
 ---
 

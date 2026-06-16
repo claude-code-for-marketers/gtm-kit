@@ -5,7 +5,7 @@ automatically at the start of every session. The full context lives in `context/
 layer with pointers to deeper files.
 
 **Status: pre-launch (early access).** Marketing site lives in the sibling repo `../newsletter-radar-site`.
-A few founder-specific fields are still marked `[inferred]`/`[TBD]`.
+This context is ready for first GTM work; remaining unknowns are called out only where they affect execution.
 
 ---
 
@@ -16,7 +16,7 @@ advertises across newsletters, who advertises on any newsletter, and — by trac
 keep sponsoring — which newsletters are actually worth buying. Both directions; built for advertisers.
 Thesis: **retention reveals what works — follow the repeat money** (`context/sponsorship-decision-framework.md`).
 
-Stage: pre-launch / early access | HQ: `[TBD]` | Website: newsletterradar.com | Contact: hello@newsletterradar.com
+Stage: pre-launch / early access | Operating location: remote/founder-led | Website: newsletterradar.com | Contact: hello@newsletterradar.com
 GTM motion: early-access / design partners now (one vertical at a time) → self-serve **paid** subscription at GA
 Pricing: paid only, **no free tier / no freemium** (Pro ~$99/mo annual 1 seat, Team ~$299/mo annual up to 10 seats, Agency custom)
 Data: our own crawl, **1,000+ newsletters** at launch across tech, AI, business, finance (+ adjacent)
@@ -90,8 +90,8 @@ Full library: `context/signal-library.md`
 
 ## Stack
 
-Signal source: **our own sponsorship index (proprietary crawl)** + Crunchbase (funding) + LinkedIn/Trigify (job changes)
-CRM: `[TBD]` | Enrichment: `[Clay/Apollo TBD]` | Outbound: `[Smartlead/Instantly TBD]` | Export: CSV / Google Sheets
+Signal source: **our own sponsorship index (proprietary crawl)** + Crunchbase/funding news + LinkedIn/job-change monitoring
+CRM: not selected yet; use Markdown/CSV outputs until a CRM is chosen | Enrichment: manual research first; Clay/Apollo are candidates | Outbound: manual founder-led email/LinkedIn first; Smartlead/Instantly are candidates | Export: CSV / Google Sheets
 
 ---
 
@@ -99,7 +99,7 @@ CRM: `[TBD]` | Enrichment: `[Clay/Apollo TBD]` | Outbound: `[Smartlead/Instantly
 
 | Name | Role | Owns |
 |------|------|------|
-| `[TBD]` | Founder | Product, the crawl/index, positioning, first sales |
+| Founder-led | Founder | Product, the crawl/index, positioning, first sales |
 
 ---
 
@@ -109,7 +109,7 @@ CRM: `[TBD]` | Enrichment: `[Clay/Apollo TBD]` | Outbound: `[Smartlead/Instantly
 - [ ] **Sharpen differentiation vs. SponsorSignals** — lead on coverage breadth (1,000+ crawl vs their 170) + the placement plan, since "buy-side" no longer differentiates
 - [ ] **Rethink pricing vs. their $100 7-day pass** — consider adding a cheap one-time pass as our entry rung (not a free tier)
 - [ ] **Treat MCP/Claude access as launch table stakes** — they've shipped it
-- [ ] Confirm remaining `[TBD]` fields (HQ, founder/team, ACV)
+- [ ] Capture founder/team details only when they become needed for public materials or CRM ownership
 - [ ] Prioritize crawl coverage by the verticals requesters ask for
 
 ---

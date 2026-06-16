@@ -4,7 +4,7 @@
 This library is the source of truth for all signal-based outreach. Every campaign in this repo traces
 back to at least one signal here.*
 
-Last updated: 2026-06-12 · Status: **pre-launch** · All point values `[inferred]` until we have conversion data.
+Last updated: 2026-06-16 · Status: **pre-launch** · Point values are v0 heuristics until campaign conversion data exists.
 
 > Our unfair advantage: **our own product data is a signal source.** We can see which brands are
 > advertising in newsletters before they tell us — that's the strongest buying signal we have.
@@ -26,7 +26,7 @@ Last updated: 2026-06-12 · Status: **pre-launch** · All point values `[inferre
 
 ### Signal: Active newsletter advertiser detected in our index
 **Category:** Behavioral / Intent
-**Points:** 40 `[inferred]`
+**Points:** 40
 **Source:** Newsletter Radar's own sponsorship index (proprietary)
 **Refresh cadence:** Real-time / daily
 
@@ -48,7 +48,7 @@ rest of your category is advertising and where the gaps are?"
 
 ### Signal: Direct competitor starts or scales newsletter advertising
 **Category:** Intent / Competitive
-**Points:** 35 `[inferred]`
+**Points:** 35
 **Source:** Newsletter Radar's own index (competitor footprint detection)
 **Refresh cadence:** Daily
 
@@ -70,7 +70,7 @@ When a competitor of an ICP account fires, flag the account.
 
 ### Signal: Hired a growth / performance-marketing leader
 **Category:** Organizational
-**Points:** 30 `[inferred]`
+**Points:** 30
 **Source:** LinkedIn / job-change alerts (Trigify or similar)
 **Refresh cadence:** Daily
 
@@ -93,7 +93,7 @@ Monitor job-change feeds for ICP accounts: titles matching
 
 ### Signal: Recent funding round
 **Category:** Firmographic / Intent
-**Points:** 20 `[inferred]`
+**Points:** 20
 **Source:** Crunchbase / funding news
 **Refresh cadence:** Weekly
 
@@ -106,8 +106,8 @@ SponsorGap explicitly surfaces this for a reason.
 
 ### Signal: Scaling other paid channels
 **Category:** Behavioral
-**Points:** 15 `[inferred]`
-**Source:** Ad-library / SimilarWeb-style intelligence `[inferred — confirm tooling]`
+**Points:** 15
+**Source:** Manual research for now; candidate sources include ad libraries, SimilarWeb-style traffic tools, podcast-ad monitoring, and public hiring/comments about channel diversification.
 **Refresh cadence:** Weekly
 
 **Definition:** Growing presence in Meta/Google/podcast ads, or public hiring/comments about diversifying paid acquisition.

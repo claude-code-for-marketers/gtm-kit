@@ -9,7 +9,7 @@ positioning, competitor battlecards, and personas. Fill the context once; run AI
 one-line prompt without rebuilding context every session.
 
 > Built on [The Revenue Architects' GTM Starter Kit](https://github.com/KarlRaf/gtm-starter-kit) (MIT).
-> **Status: pre-launch** — many fields are marked `[inferred]` and should be confirmed by the founder.
+> **Status: pre-launch** — the v0 context is ready for first GTM work; validate scoring assumptions with design partners.
 
 ---
 
@@ -77,9 +77,9 @@ cd gtm-kit
 claude .
 ```
 
-**First: confirm the inferred fields.** This repo was bootstrapped pre-launch, so founder-specific
-fields (pricing, exact ICP cut, stack, priorities) are marked `[inferred]`. Run a refinement pass to
-replace them with real answers, then start running skills:
+**First: use the v0 context, then validate it.** This repo was bootstrapped pre-launch, so scoring
+weights, pricing, and ICP boundaries should be validated against design partners as soon as real
+campaign data exists. You can start running skills immediately:
 
 ```
 # Research a target advertiser

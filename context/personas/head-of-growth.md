@@ -1,6 +1,6 @@
 # Persona: Head of Growth / Performance Marketing
 
-*Primary champion and, at most ICP accounts, the economic buyer. Status: pre-launch — `[inferred]` fields to validate with design partners.*
+*Primary champion and, at most ICP accounts, the economic buyer. Status: pre-launch — validate with design partners.*
 
 ---
 
@@ -44,7 +44,7 @@ in advance — and a competitor quietly scaling a channel they can't see.
 ## How to Reach Them
 
 **Best channel:** Email + LinkedIn; reinforced by presence in growth communities and marketing newsletters
-**Best time:** `[inferred]`
+**Best time:** Tuesday-Thursday business hours; trigger-based outreach should go out within 48 hours of a relevant signal.
 **What gets their attention:** A *specific* competitor footprint — "here's every newsletter [their competitor] ran last quarter." Concrete, about them, not generic.
 **What gets ignored:** Generic "newsletter ads are booming" pitches; anything that sounds like a prospecting/lead-gen tool
 
@@ -55,11 +55,11 @@ in advance — and a competitor quietly scaling a channel they can't see.
 **Value prop for this persona:**
 See exactly where your competitors advertise in newsletters — and get a ranked plan of where you should spend next.
 
-**Proof points that resonate:** `[inferred — replace post-launch]`
+**Proof points that resonate before launch:**
 - A real competitor footprint pulled live during the conversation
 - Freshness: "new sponsors detected this week in your category"
 
-**Reference customers for this persona:** `[TBD — pre-launch]`
+**Reference customers for this persona:** None yet — use live product evidence until design partners are referenceable.
 
 ---
 
