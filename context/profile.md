@@ -26,10 +26,11 @@ marketed for newsletter publishers prospecting for advertisers to pitch. Newslet
 same data the other way: at the brand deciding where to spend. Tagline: *"Every newsletter your
 competitor sponsors, in one query."*
 
-> **Caveat (important):** **SponsorSignals** is the exception — it already has an explicit advertiser
-> mode, so our differentiation is *buy-side focus + a ranked placement plan*, not "the only buy-side
-> tool." The marketing site's "every other tool sells to publishers" line is a slight overclaim worth
-> revisiting. See `context/competitor-radar.md` (SponsorSignals card) for the full picture.
+> **Caveat (important):** **SponsorSignals** already ships a full buy-side product in our exact verticals,
+> so "buy-side" is **not** our differentiator. Our real edges are **coverage breadth** (1,000+ automated
+> crawl vs. their 170 manually verified) and the **ranked placement plan/gap analysis**. The marketing
+> site's "every other tool sells to publishers" line is an overclaim worth revisiting. See
+> `context/competitor-radar.md` (SponsorSignals card) for the full, frank picture.
 
 ---
 
@@ -61,12 +62,17 @@ list. (Possible later expansion; out of scope for launch.)
 > for design partners) rather than a trial. Rationale: a saved bad placement or one found competitor
 > gap pays for a year — anchor on value, keep entry friction low for the founder/solo-marketer persona.
 >
-> **Competitive benchmark — SponsorSignals:** free dashboard tier, a **$1,000 / 3-month pilot**, and a
-> **$5,000/yr, up-to-10-seat** annual (~$500/seat). Implications for us: (a) our Pro at $1,188/yr sits
-> *above* their free tier, so the value story (placement plan, buy-side focus) has to carry it — the
-> money-back guarantee matters more given they have a free option; (b) **resolved** — Team is now 10
-> seats at $3,588/yr, beating their $5k/10-seat annual on price; (c) match their Claude/MCP access on
-> the roadmap (see battlecard).
+> **Competitive benchmark — SponsorSignals (verified 2026-06-15):** value ladder of free teaser
+> (search + demo dashboard, no account) → **$100 one-time / 7-day Validation Pass** → **$1,000 / 3-month
+> Pilot** → **$5,000/yr, up-to-10-seat Annual**. Implications for us:
+> - ⚠ **The $100 7-day pass is the real threat to our pricing.** It's positioned for "a startup marketer
+>   deciding where to advertise this quarter" — exactly our buyer — at a fraction of our $99/mo. A one-time
+>   looker buys their $100 pass, not our subscription. **Recommendation: add a cheap one-time/short pass**
+>   (e.g. $79–$149 for 7–14 days) as our entry rung. It's *not* a free tier, so it's consistent with the
+>   no-freemium rule, and it neutralizes their cheapest on-ramp. Revisit the subscription-only stance.
+> - Team is 10 seats at $3,588/yr, which beats their $5k/10-seat annual on price — keep this.
+> - ⚠ **MCP/Claude access is already shipped by them** (Pilot + Annual), not a future edge. Given our
+>   CLI/terminal brand, treat MCP as **table stakes for launch**, not a roadmap nice-to-have.
 
 **Integrations that matter for GTM:** CSV / Google Sheets export for media planning. `[Others TBD]`
 
@@ -125,7 +131,7 @@ seats. Top-of-funnel hook = the no-signup sample lookup → request access / pur
 **Primary competitors:** *(full battlecards in `context/competitor-radar.md`)*
 | Competitor | Their strength | Our edge |
 |------------|---------------|----------|
-| **SponsorSignals** ⚠ | Already serves advertisers; strong in tech/AI; Claude/MCP access | Buy-side *only* + a ranked placement plan vs. their split focus |
+| **SponsorSignals** ⚠ | Fully shipped buy-side product, MCP/Claude access, our exact verticals (170 newsletters, manual) | **Coverage breadth (1,000+ automated crawl vs their 170)** + the ranked placement plan |
 | Who Sponsors Stuff | Deepest historical archive + ad images | Buy-side framing, freshness |
 | SponsorGap | Real-time spend signal | Advertiser workflow vs. lead list |
 | Appeared.in | Rich brand profiles, modern UX | Competitor-footprint depth for buyers |

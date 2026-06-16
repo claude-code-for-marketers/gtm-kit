@@ -83,7 +83,7 @@ Full battlecards: `context/competitor-radar.md`
 
 | Competitor | We win when | We lose when | Note |
 |------------|-------------|-------------|------|
-| **SponsorSignals** ⚠ | Buyer wants a buy-side-*only* tool + a ranked placement plan, not just intelligence | Buyer wants a free tier / cheap pilot, or just sponsor history | **Closest competitor — already serves advertisers. Watch weekly.** |
+| **SponsorSignals** ⚠ | Buyer needs coverage beyond their 170 newsletters, or wants a ranked plan not just a footprint | Buyer wants the cheap $100 one-time look, or 170 newsletters is enough | **Closest competitor — full buy-side product already shipped. Watch weekly.** |
 | Who Sponsors Stuff | Buyer wants current data + a buy-side workflow, not a historical seller's directory | Buyer only needs the deep historical archive / ad-image library | Incumbent; deepest archive |
 | SponsorGap | Buyer wants a *plan*, not raw "who's spending" signal | Buyer just needs real-time spend signal (and free search) | Real-time, publisher-framed; free search we don't match |
 | Appeared.in | Buyer wants explicit buy-side benchmarking | Appeared ships a buy-side mode and matches our framing | Strong data/UX; publisher-framed today |
@@ -105,12 +105,15 @@ sell-side. We're media intelligence for buyers. Say "where to advertise," never 
 **Don't imply a free tier or free trial** — there isn't one. The free thing is a no-signup *sample lookup*
 (one teaser), not an account. De-risk with the 14-day money-back guarantee instead.
 
-**Don't lead with raw coverage size vs. Paved's 15,000+** — we win on buy-side workflow, vertical depth,
-and freshness, not panel size. Cite our 1,000+ owned crawl as proof the data is real and current.
+**Coverage is context-dependent** — *don't* compete on panel size vs. Paved's 15,000+ (a publisher lead
+feed; we win on buy-side workflow). But *do* lead on coverage breadth vs. **SponsorSignals** — our 1,000+
+automated crawl vs. their 170 manually-verified newsletters is a real, defensible edge against the one
+competitor that actually overlaps us.
 
-**Don't claim we're "the only buy-side / advertiser-first tool"** — **SponsorSignals already serves
-advertisers.** It's an overclaim that a savvy buyer will catch. Say "built *only* for the buy side" and
-lead with the placement **plan** (`radar gaps`), which goes a step past their intelligence.
+**Don't claim we're "the only buy-side / advertiser-first tool"** — **SponsorSignals ships a full buy-side
+product** in our exact verticals, with MCP/Claude access and a $100 entry pass. "Buy-side" is not a
+differentiator against them. Lead instead with our two real edges: **coverage breadth** (1,000+ automated
+crawl vs. their 170 manually verified) and the **placement plan/gap analysis** (`radar gaps`).
 
 ---
 

@@ -27,7 +27,7 @@ questions we answer that the incumbents bury:
 
 | Competitor | Sold to | Coverage | Real-time? | Our angle |
 |------------|---------|----------|-----------|-----------|
-| **SponsorSignals** ⚠ | **Both — has an explicit advertiser mode** | Strong in tech/AI/dev (TLDR, Bytes, Superhuman) | Yes — daily alerts | Buy-side **focus** + the placement *plan*, not a split-brain tool |
+| **SponsorSignals** ⚠ | **Both — fully shipped buy-side product** | 170 newsletters (manual), our exact verticals | Yes — Status Signals (hourly) | Coverage breadth (1,000+ crawl vs their 170) + the placement *plan* |
 | Who Sponsors Stuff | Publishers (sales) | ~250 newsletters, ~4,000 sponsors | No — historical archive | Buy-side framing + freshness |
 | SponsorGap | Publishers (sales) | Broad, real-time | Yes | Advertiser workflow, not lead lists |
 | Appeared.in | Publishers + agencies | "Thousands" of newsletters | Yes | Competitor-footprint depth |
@@ -39,50 +39,64 @@ questions we answer that the incumbents bury:
 
 ## SponsorSignals  ⚠ closest competitor
 
-> **Research note:** their site (sponsorsignals.com) blocks automated fetches (403), so this card is
-> built from search results + their public URL structure. Verify the specifics before using in a deal.
+> **Verified from sponsorsignals.com (2026-06-15)** — figures and copy below are taken directly from
+> their site, not inferred. Founder: Sayz Lim (solo-founder signals: "direct line to the founder").
 
-**One-line summary:** Newsletter sponsorship intelligence that serves **both** sides — publishers
-prospecting for advertisers *and* advertisers researching where to spend. The only competitor that has
-already built an explicit buy-side product, and it's concentrated in our exact verticals (tech/AI/dev).
+**One-line summary:** Newsletter sponsorship intelligence that serves **both** sides — "Find brands to
+pitch. Find newsletters to sponsor." It has a **fully shipped buy-side product** ("See which newsletters
+your competitors sponsor… exact brands, dates, and creative… built for a startup marketer deciding where
+to advertise this quarter"), concentrated in **our exact verticals.** Treat this as the benchmark to beat,
+not a future threat — they already occupy the wedge.
 
-**Market position:** Hybrid/dual-audience. Per-advertiser footprint pages (e.g. `/advertiser/incogni`,
-`/mode-mobile`, `/expo`, `/sixt`, `/steady`) and per-newsletter pages (e.g. `/newsletter/fireship`,
-`The Rundown AI`, `The Deep View`). Tracks verified placements, sponsor overlap, timing, and ad creative.
-Most-tracked newsletters include TLDR (~549 sponsorships), Bytes (~281), Superhuman (~221).
+**Scale (verified):** **170 newsletters**, **2,825 advertisers**, **22,335 verified placements**,
+**manually verified daily**. In the last 30 days sponsors ran in 82% of tracked newsletters (140/170).
 
-**Their strengths:**
-- **Already buy-side:** "track competitor placements," "evaluate newsletters before you spend" — our exact pitch
-- Per-advertiser footprint + competitor overlap + placement creative (the things we lead with)
-- Deep in tech/AI/dev newsletters — heavy overlap with our launch coverage
-- Real-time-ish: daily email alerts + a discovery dashboard
-- **MCP / Claude Connector access** for AI-assisted research and drafting — a modern angle
-- Low-friction pricing with a free dashboard tier
+**Vertical mix (their category counts):** Developer Tools 37 · AI 28 · SaaS & Business 24 · Product &
+Startups 22 · Macro & Markets 12 · Crypto & Web3 11 · Marketing & Growth 11 · Startups & VC 11 · Cloud &
+Infra 8 · Security 5 · Design 4 · Fintech 4 · Data 3. **This is precisely our launch coverage map.**
 
-**Their weaknesses (our openings):**
-- **Split-brain:** serving publishers *and* advertisers means the product and roadmap are pulled both ways. We are buy-side only — sharper workflow, no sell-side clutter
-- Appears to stop at *intelligence/overlap*; we lead with the **placement plan** (`radar gaps` → a ranked buy), not just "here's the history"
-- Free tier + creative-gating (7-day Validation Pass / Pro to see creative) signals a freemium funnel; our paid-only, money-back posture targets serious buyers, not free browsers
-- Dual framing dilutes the buy-side message; our entire brand says "for the advertiser"
+**Their strengths (be honest — these are strong):**
+- **Buy-side is fully shipped**, not a byproduct. Their pricing page *is* a buy-side pitch.
+- Per-advertiser search (enter a brand/URL) → competitor profiles, month-by-month cadence, **exact creative**
+- **Status Signals** page: real-time sponsor movement — Scaling / Reactivated / Active / New / Cooling, timestamped to the hour ("50m ago"). A sophisticated freshness layer.
+- **MCP access shipped** (Codex, Claude, others) on Pilot/Annual — AI tools research competitors and draft briefs against their data. *This is live, not roadmap.*
+- Discovery dashboard with a Not-Seen / Seen / Bookmarks workflow (low cognitive load)
+- A clean value ladder: free teaser → $100 one-time → $1k pilot → $5k annual
 
-**Pricing (theirs, for reference):**
-- Free dashboard (sponsor history, overlap, timing) + free monthly report
-- Pro / **7-day Validation Pass** to unlock full creative + category breakdowns
-- **Pilot: $1,000 / 3 months** · **Annual: $5,000 / year, up to 10 seats**
-- ⚠ Note vs. our plan: their Pilot ($1k/3mo) and 10-seat annual ($5k = ~$500/seat) undercut our Team tier on seats. See the pricing block in `profile.md`.
+**Their weaknesses (our real, narrower openings):**
+- **Coverage breadth + automation.** 170 newsletters, **manually verified daily** — that doesn't scale.
+  Our automated crawl targets **1,000+** (≈6×). *This is our strongest, most defensible edge — if crawl
+  quality holds.* Lead here, not on "we're buy-side."
+- **No explicit placement plan / gap analysis.** They show the footprint and discovery; we turn it into a
+  **ranked buy** — the newsletters your competitors own that you're missing (`radar gaps`). Narrow gap,
+  but real. Build and protect it.
+- **Split audience** (publishers + advertisers) pulls their roadmap two ways; we're buy-side only.
+- Manual verification caps freshness/breadth as the market grows; an automated crawl can outrun it.
 
-**Why an advertiser would choose us over them:**
-- "SponsorSignals shows me the history; Newsletter Radar hands me a ranked plan of where to spend next"
-- "It tries to serve newsletters and advertisers at once — Newsletter Radar is built only for buyers"
+**Pricing (verified — their value ladder):**
+- **Free:** sponsor search + demo dashboard (no account) + free monthly sponsorship report — a teaser, not full access
+- **Validation Pass — $100 / 7 days**, one-time, no auto-renew, no call. Full web access. *"Built for a startup marketer deciding where to advertise this quarter."*
+- **Pilot — $1,000 / 3 months**, team, MCP access, credits toward Annual
+- **Annual — $5,000 / year, up to 10 seats**, MCP access, priority support, founder access
+- ⚠ **Pricing threat:** their **$100 one-time pass** is a far lower-friction buy-side entry than our
+  $99/mo (no free tier). A "deciding this quarter" marketer buys the $100 look, not a subscription. See `profile.md`.
+
+**Why an advertiser might still choose us:**
+- Broader coverage — "they track 170 newsletters by hand; we crawl 1,000+ automatically"
+- The plan, not just the data — "they show the footprint; we hand you the ranked buy and the gaps you're missing"
+- Buy-side only — no sell-side clutter in the workflow
 
 **How to handle "isn't this just SponsorSignals?":**
-> "SponsorSignals is the closest thing out there, and they do serve advertisers — credit to them. The
-> difference is focus and output: they're built for publishers *and* advertisers, and they stop at the
-> intelligence. We're buy-side only, and we turn the footprint into a ranked placement plan — the gaps
-> your competitors own that you should test next. Intelligence is step one; the plan is the product."
+> "SponsorSignals is the closest thing out there and genuinely serves advertisers — credit to them. Two
+> differences: coverage and output. They verify ~170 newsletters by hand; we crawl 1,000+ automatically,
+> so you're not blind outside their panel. And they stop at the footprint — we turn it into a ranked plan
+> of where to spend next, including the placements your competitors own that you don't."
 
-**Watch closely.** If SponsorSignals doubles down on the advertiser side and ships a recommendation/plan
-layer, our differentiation narrows to focus and UX. This is the competitor to monitor weekly.
+**Reality check (read this).** SponsorSignals largely *is* the product we describe on our site, already
+shipped, in our verticals, with MCP and a cheap entry point. "Buy-side" is **not** a differentiator
+against them. Our defensible edges narrow to: (1) **coverage breadth via automated crawl**, (2) the
+**placement plan/gap analysis**, (3) focus + UX. The pricing stance (no free tier, subscription-only)
+needs a rethink against their $100 pass. Monitor weekly; revisit our differentiation and pricing now.
 
 ---
 

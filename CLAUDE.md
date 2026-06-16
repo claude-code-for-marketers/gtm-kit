@@ -60,13 +60,13 @@ Full document: `context/positioning.md`
 **We win when:** The buyer is an advertiser who wants competitor footprint + a placement plan + fresh data.
 **We lose when:** They only need raw "who's spending" signal, the newsletter they care about isn't covered, or they're actually a publisher.
 
-vs. **SponsorSignals** (⚠ closest competitor — already serves advertisers): we're buy-side *only* + ship a ranked placement plan, not just intelligence; watch them weekly
+vs. **SponsorSignals** (⚠ closest competitor — full buy-side product already shipped, our exact verticals): lead with **coverage breadth** (1,000+ crawl vs their 170 manual) + the **placement plan**; "buy-side" is NOT a differentiator vs them; watch weekly
 vs. Who Sponsors Stuff: Buy-side workflow + freshness vs. a historical seller's directory
 vs. SponsorGap: A media *plan*, not a real-time lead list (and we don't do free search)
 vs. Appeared.in: Explicit buy-side benchmarking (publisher-framed today)
 vs. Paved Radar: Neutral advertiser tool, not a publisher lead feed tied to a marketplace
 
-> Don't say "the only buy-side tool" — SponsorSignals also serves advertisers. Lead with focus + the plan.
+> Don't say "the only buy-side tool" — SponsorSignals already serves advertisers. Lead with coverage breadth + the plan.
 
 **Voice:** Direct, concrete, buy-side, lightly technical (terminal/CLI brand). Lead with specific competitor
 footprints, never generic "newsletter ads are hot." Never sound like a prospecting/lead-gen tool.
@@ -106,8 +106,10 @@ CRM: `[TBD]` | Enrichment: `[Clay/Apollo TBD]` | Outbound: `[Smartlead/Instantly
 ## This Week
 
 - [ ] Turn early-access requests (via `../newsletter-radar-site`) into design-partner advertisers
+- [ ] **Sharpen differentiation vs. SponsorSignals** — lead on coverage breadth (1,000+ crawl vs their 170) + the placement plan, since "buy-side" no longer differentiates
+- [ ] **Rethink pricing vs. their $100 7-day pass** — consider adding a cheap one-time pass as our entry rung (not a free tier)
+- [ ] **Treat MCP/Claude access as launch table stakes** — they've shipped it
 - [ ] Confirm remaining `[TBD]` fields (HQ, founder/team, ACV)
-- [ ] Validate launch pricing (Pro/Team) with the first design partners
 - [ ] Prioritize crawl coverage by the verticals requesters ask for
 
 ---
