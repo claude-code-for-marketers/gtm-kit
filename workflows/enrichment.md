@@ -1,146 +1,113 @@
-# Workflow: Account Enrichment
+# Workflow: Contact Sales Enrichment
 
-*How we enrich accounts and contacts. Run this before any scoring or outreach to ensure data quality.*
+*How a contact-sales submission becomes an enriched account preview. Run this before scoring, CRM sync, or outreach.*
 
 ---
 
 ## Purpose
 
-Populate accounts and contacts with the firmographic, technographic, and organizational data needed to score ICP fit and personalize outreach. The goal is not complete data — it is the right data for our specific signals and scoring model.
+Turn a website contact-sales request into a reviewable account and contact brief without exposing API keys,
+committing raw lead data, or enrolling anyone in outreach automatically.
 
----
+This checkpoint uses the public site as the workflow trigger:
 
-## Enrichment Waterfall
-
-Run enrichment sources in this order. Stop when you have sufficient coverage for a field. Don't pay for data you can get free.
-
-### Tier 1: Free / Included Sources
-
-1. **Company website + LinkedIn** — headcount, product, recent hires, tech stack (job postings)
-2. **Crunchbase / PitchBook (free tier)** — funding history, investors
-3. **BuiltWith / Wappalyzer** — tech stack fingerprint
-4. **GitHub** — for developer-focused companies: activity, open source presence, team size
-
-Use for: company snapshot, initial ICP screening, tech stack signals
-
----
-
-### Tier 2: Clay Waterfall
-
-For accounts that pass Tier 1 screening (ICP score ≥ 40), run through Clay in this order:
-
-```
-1. Clearbit Enrichment         → firmographics, estimated revenue, seniority data
-2. People Data Labs (PDL)      → contact data, LinkedIn profiles, email
-3. Apollo.io                   → email validation, additional contacts
-4. Hunter.io                   → email verification fallback
-5. LinkedIn (manual or Sales Nav) → contact verification, recent activity
+```text
+/contact-sales form
+-> POST /api/enrichment
+-> Orthogonal Run API
+-> Apollo people match + organization enrichment
+-> /enrichment-result preview
+-> human review
 ```
 
-**Clay table setup:**
-- Input: domain
-- Required output fields: company size, industry, funding stage, last funding date, tech stack, key contacts (name, title, email, LinkedIn URL)
-- Quality gate: flag accounts where email confidence < 80%
+The result page is illustrative and temporary. Until a database or CRM is selected, enrichment output stays
+in the browser session only and is not written to `gtm-kit/outputs`.
 
 ---
 
-### Tier 3: Custom / Proprietary Sources
+## Input
 
-*These are the signals that competitors don't have. Build these for your specific industry.*
+The website collects:
 
-Examples:
-- Industry-specific regulatory databases (building permits, compliance filings)
-- Job posting aggregators (track hiring patterns over time)
-- App marketplaces (reviews, ratings, recent listings)
-- Government datasets relevant to your ICP
+| Field | Purpose |
+|---|---|
+| Company email | Identifies the requester and derives the company domain for enrichment. |
+| Name | Gives Apollo an additional people-match signal. |
+| Phone number | Captures sales follow-up context; not used to reveal phone data from Apollo. |
+| Message | Preserves the buyer's stated need for human review. |
 
-Document your proprietary sources here:
-
-| Source | What it provides | How to access | Refresh cadence |
-|--------|-----------------|---------------|-----------------|
-| [Source name] | [Signal type] | [API / Manual / CSV] | [Frequency] |
+Reject obvious personal email domains such as Gmail, Yahoo, Outlook, iCloud, and Proton. The workflow
+needs a company domain to enrich the account.
 
 ---
 
-## Contact Enrichment
+## Enrichment Step
 
-For each qualified account, identify and enrich 2–3 contacts matching your target personas.
+The site calls Orthogonal from a server route only:
 
-**Contact priority order:**
-1. [Primary persona title — e.g., VP of Sales Ops]
-2. [Secondary persona title — e.g., Director of RevOps]
-3. [Economic buyer title — e.g., CRO]
+```text
+POST https://api.orth.sh/v1/run
+Authorization: Bearer $ORTHOGONAL_API_KEY
+```
 
-**For each contact, collect:**
-- Full name
-- Current title and company
-- Work email (verified)
-- LinkedIn URL
-- Time in current role
-- Recent LinkedIn activity (last post topic and date)
+The API key lives in `newsletter-radar-site/.env.local` and is documented in `.env.example`. Never put
+real API keys in git.
 
----
+Run these Apollo endpoints through Orthogonal:
 
-## Data Quality Standards
+| Endpoint | Method | Input |
+|---|---|---|
+| `/api/v1/people/match` | POST | email, parsed first/last name, derived domain |
+| `/api/v1/organizations/enrich` | GET | derived domain |
 
-An account is "enrichment complete" when:
+The site combines both responses into one preview payload:
 
-- [ ] Employee count: populated and accurate
-- [ ] Funding stage: confirmed with last funding date
-- [ ] Tech stack: at least 3 tools identified
-- [ ] ICP score: calculated and recorded
-- [ ] Primary contact: name, title, verified email, LinkedIn URL
-- [ ] Secondary contact: at least one additional stakeholder identified
+```text
+submittedLead
+person
+organization
+warnings
+price
+raw
+```
 
-Accounts below this threshold stay in the enrichment queue — they don't move to active sequences.
-
----
-
-## Enrichment Cadence
-
-| Account tier | Re-enrich every |
-|-------------|----------------|
-| Tier 1 | 30 days |
-| Tier 2 | 60 days |
-| Tier 3 | 90 days |
-| Tier 4 | On re-qualification event |
+If Apollo or Orthogonal fails, the site may return visibly labeled demo fallback data so the workshop can
+continue. Demo fallback must never be presented as verified enrichment.
 
 ---
 
-## Email Deliverability Infrastructure
+## Review Gate
 
-Enrichment is only useful if your outbound emails land in the inbox. This is infrastructure, not a nice-to-have — handle it before you launch any sequence.
+Before any follow-up, a human reviews:
 
-**Domain setup:**
-- Send from a subdomain (e.g., `outbound.yourdomain.com` or a dedicated sending domain), never your primary domain
-- SPF, DKIM, and DMARC must be configured on every sending domain — verify with [MXToolbox](https://mxtoolbox.com/) before sending
-- Warm new domains for 4–6 weeks before sending at volume: start at 10–20 emails/day, increase 20–30% per week
+- whether the company fits Newsletter Radar's buy-side ICP
+- whether the requester appears to be a growth, marketing, founder, or paid acquisition buyer
+- whether the company operates in a vertical covered by the crawl
+- whether the message names a competitor, channel problem, or newsletter buying intent
+- whether Apollo data looks current enough to trust
 
-**Sending limits (per mailbox):**
-- Warmed mailbox: 40–50 emails/day max
-- Multiple signals or tiers = multiple mailboxes — rotate across them
-- Daily cap per sequence: enforce in your outbound tool, not manually
-
-**Mailbox rotation:**
-- Tier 1 outreach: dedicated mailboxes, manually monitored for replies
-- Tier 2/3 sequences: shared mailbox pool, rotate sends evenly
-- Immediately pull any mailbox with reply rate < 1% or bounce rate > 3%
-
-**Bounce rate management:**
-- Verify emails before enrolling contacts (Apollo, Hunter, or NeverBounce)
-- Target: < 2% hard bounce rate per campaign
-- Bounce rate > 5% = immediate pause and domain review
+This checkpoint does not create CRM records, outbound sequences, or committed Markdown artifacts.
 
 ---
 
-## CRM Sync
+## Data Handling Rules
 
-After enrichment, update the following CRM fields:
+- Keep raw lead data out of git.
+- Keep `ORTHOGONAL_API_KEY` out of git.
+- Do not persist the preview result until a database or CRM is selected.
+- Do not auto-enroll contacts in outreach.
+- Label demo fallback data clearly.
+- Treat `raw` JSON as debugging context, not the customer-facing brief.
 
-| CRM Field | Source | Notes |
-|-----------|--------|-------|
-| [Field name] | [Clay / Manual] | |
-| [Field name] | [Clay / Manual] | |
-| ICP Score | ICP Scoring skill | Calculated score, not vendor score |
-| Account Tier | ICP Scoring skill | 1–4 based on score |
-| Last Enriched | System | Auto-timestamp |
+---
+
+## Future Extension
+
+When persistence is introduced, save only reviewed and sanitized artifacts:
+
+```text
+gtm-kit/outputs/enrichment/YYYY-MM-DD-account-name.md
+```
+
+The saved artifact should summarize the account, contact, ICP fit, source data, open questions, and
+recommended next action. It should not contain unnecessary raw vendor response payloads.
