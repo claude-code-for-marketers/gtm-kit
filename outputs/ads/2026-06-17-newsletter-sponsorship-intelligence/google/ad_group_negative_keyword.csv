@@ -1,0 +1,5 @@
+Row Type,Action,Keyword status,Level,Campaign ID,Campaign,Ad group ID,Ad group,Keyword ID,Negative keyword,Type
+Negative keyword,Add,Enabled,Ad group,,Newsletter Sponsorship Intelligence,,Sponsorship Intelligence,,newsletter sponsors,Phrase match
+Negative keyword,Add,Enabled,Ad group,,Newsletter Sponsorship Intelligence,,Sponsorship Intelligence,,advertise in our newsletter,Phrase match
+Negative keyword,Add,Enabled,Ad group,,Newsletter Sponsorship Intelligence,,Sponsorship Intelligence,,newsletter ad sales,Phrase match
+Negative keyword,Add,Enabled,Ad group,,Newsletter Sponsorship Intelligence,,Sponsorship Intelligence,,publisher sponsorship,Phrase match

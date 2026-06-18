@@ -126,4 +126,8 @@ Read skills/icp-scoring/SKILL.md and score these accounts: [paste list]
 # Build a campaign from a signal
 Read skills/signal-to-sequence/SKILL.md — build a Tier 2 campaign for
 accounts that triggered [signal name], targeting [persona title]
+
+# Build paid ad artifacts
+Read skills/paid-ads-builder/SKILL.md — build a paid ads campaign for
+[campaign goal], targeting [persona title], using landing page [URL]
 ```

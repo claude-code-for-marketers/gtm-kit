@@ -42,8 +42,8 @@ gtm-kit/
 │   ├── competitor-radar.md         ← Internal battlecards (live-deal objections only — not the pitch)
 │   └── personas/                   ← Head of Growth, Founder/marketing lead
 ├── skills/                         ← Claude executes these from one-line prompts
-│   ├── setup/ · account-research/ · icp-scoring/ · signal-to-sequence/ · weekly-update/
-├── workflows/                      ← How the team operates (enrichment, signal routing, campaign build)
+│   ├── account-research/ · icp-scoring/ · signal-to-sequence/ · blog-post-creator/ · paid-ads-builder/
+├── workflows/                      ← How the team operates (enrichment, signal routing, campaign build, ad generation)
 ├── playbooks/                      ← Step-by-step guides (new-signal response, competitor switch)
 ├── sync/                           ← Scripts to pull live data into the repo
 └── outputs/                        ← All skill outputs land here
@@ -91,6 +91,10 @@ Read skills/icp-scoring/SKILL.md and score these companies: [paste list]
 # Build a campaign from a signal
 Read skills/signal-to-sequence/SKILL.md.
 Build a Tier 2 campaign for accounts triggering [signal name]. Target [persona].
+
+# Build paid ad artifacts
+Read skills/paid-ads-builder/SKILL.md.
+Build a paid ads campaign for [campaign goal]. Target [persona]. Use landing page [URL].
 ```
 
 All outputs land in `outputs/` — `outputs/YYYY-MM-DD-[type]-[name].md`.

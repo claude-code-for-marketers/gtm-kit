@@ -22,6 +22,7 @@ Thumbs.db
 outputs/lists/
 outputs/raw/
 *.csv
+!outputs/ads/**/*.csv
 
 # Sync script live data outputs (contain metrics, not committed)
 outputs/campaigns/**/results-sync.json
